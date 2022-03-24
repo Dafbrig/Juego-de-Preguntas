@@ -1,0 +1,10 @@
+Helpers\Tabla.class
+Class\Jugador.class
+Class\Ronda.class
+Class\Juego.class
+Helpers\Capturar.class
+Sofka\Main.class
+Class\Pregunta.class
+Conecction\Conection.class
+Helpers\Data.class
+Helpers\Mapper.class
