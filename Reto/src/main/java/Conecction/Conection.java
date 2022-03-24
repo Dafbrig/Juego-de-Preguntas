@@ -12,7 +12,7 @@ public class Conection {
     static Firestore db;
     public static void conecction() {
         try{
-        FileInputStream serviceAccount =new FileInputStream("juego.json");
+        FileInputStream serviceAccount =new FileInputStream("juego-7.json");
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                 .build();
