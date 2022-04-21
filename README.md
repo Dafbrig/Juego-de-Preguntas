@@ -9,15 +9,6 @@ Para su desarrollo utilicé netbeans 12.4 y JDK 11.0.12
 El proyecto tiene un Main que se encuentra en Sofka/Main y el sistema cuenta con 25 preguntas precargadas en la base de datos.
 Se agregaron espacios en las opciones para poder identificar las respuestas correctas facilmente y asi se pueda completar el juego sin dificultad
 
-# Nota
-Las dependencias se descargan automáticamente con el archivo pom.xml.
-Se debe estar seguro de que las dependencias se descargaron correctamente.
-En caso de que no se descarguen, borre la línea de dependencias que se encuentra en pom.xml(A continuación verán las líneas que deben borrar)
-
-# Ejecute el programa para que Maven pueda actualizarse.
-
-# Luego vuelva e inserte la línea de dependencias
-
 <dependencies>
         <dependency>
             <groupId>com.google.firebase</groupId>
